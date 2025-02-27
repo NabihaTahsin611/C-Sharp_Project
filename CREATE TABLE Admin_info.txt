@@ -1,0 +1,9 @@
+CREATE TABLE Admin_info(
+USERNAME VARCHAR(50) NOT NULL,
+PASSWORD VARCHAR(50) NOT NULL, 
+Email VARCHAR(50) NOT NULL);
+
+SELECT * FROM Admin_info;
+INSERT INTO Admin_info VALUES('Fatema Akter Sujana','12345', 'sujanaaa@gmail.com');
+INSERT INTO Admin_info VALUES('Md. Abu Talha','talha', 'talha456@gmail.com');
+INSERT INTO Admin_info VALUES('Nabiha Tahsin','tachin', 'naba@gmail.com');
